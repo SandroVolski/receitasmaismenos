@@ -1,0 +1,61 @@
+/* AddReceita.css */
+
+body {
+    background: linear-gradient(to bottom, var(--primary-color), #e6f7ea);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh; /* Certifique-se de que o degradê cubra toda a altura da tela */
+  }
+  
+  .add-receita-container {
+    display: flex;
+    flex-direction: column; /* Adicione essa linha para alinhar elementos verticalmente */
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: transparent; /* Remova o fundo branco do .add-receita-container */
+  }
+  
+  .add-receita-title {
+    font-size: 40px;
+    margin-bottom: 20px;
+    background-color: transparent; /* Adicione o fundo verde */
+    color: white; /* Texto branco */
+    padding: 10px 0; /* Espaçamento no topo e na base */
+    text-align: center; /* Centralizar o texto */
+    width: 100%; /* Garante que o título ocupe a largura total */
+    margin-top: 0; /* Adicione uma margem superior de 0 para posicionar no topo */
+  }
+  
+  .add-receita-form {
+    max-width: 600px; /* Defina a largura máxima que você deseja */
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .add-receita-form input,
+  .add-receita-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-receita-form button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-receita-form button:hover {
+    background-color: #42d490; /* Um tom mais escuro do verde para o hover */
+  }
+  

@@ -1,0 +1,87 @@
+/* Home.css */
+
+/* Estilos para a página inicial */
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, var(--primary-color), lightgreen); /* Degradê de verde */
+  }
+  
+  .header {
+    position: relative;
+  }
+  
+  .banner {
+    background-color: var(--primary-color);
+    padding: 40px 0;
+  }
+  
+  .home-title {
+    color: white;
+    margin: 0;
+  }
+  
+  .header-image {
+    width: 100%;
+    max-height: 300px;
+  }
+  
+  .add-receita-button {
+    
+    position: absolute;
+    top: 255px;
+    left: 215px;
+    padding: 5px 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Adicione uma transição suave */
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-receita-button:hover {
+    background-color: white; /* Altera a cor de fundo para branco */
+    color: black; /* Altera a cor da fonte para preto */
+  }
+  
+  .recipe-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recipe-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .saiba-mais-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-left: auto; /* Move o botão para a direita */
+  }
+
+    .saiba-mais-container {
+        margin-left: auto; /* Isso empurra o botão para a direita */
+    }
+
+    .logo {
+      width: 100px; /* Ajuste o tamanho conforme necessário */
+      height: auto;
+    }
+    

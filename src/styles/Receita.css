@@ -1,0 +1,54 @@
+/* Receita.css */
+
+/* Estilos gerais da página */
+
+
+body {
+    background: linear-gradient(to bottom, var(--primary-color), #e6f7ea);
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+.receita-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+  /* Estilos para o título da receita */
+  .recipe-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para títulos de seção */
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+  }
+  
+  /* Estilos para o conteúdo da seção */
+  .section-content {
+    margin-bottom: 20px;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para a seção de Modo de Preparo */
+  .preparo-section {
+    background-color: #f8c291; /* Vermelho clarinho */
+  }
+  
+  /* Estilos para a seção de Ingredientes e Outras Informações */
+  .ingredientes-section,
+  .info-section {
+    background-color: #f9e79f; /* Amarelo clarinho */
+  }
+  
